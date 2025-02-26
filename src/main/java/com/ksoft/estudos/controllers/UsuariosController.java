@@ -28,6 +28,7 @@ public class UsuariosController {
 	@GetMapping
 	public ResponseEntity<?> getUsuarios(){
 		
+		System.out.println("adicionei esse print");
 		return ResponseEntity
 				.ok(usuariosService.getUsuarios());
 	}
