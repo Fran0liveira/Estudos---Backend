@@ -14,7 +14,7 @@ public class EstudosTeste {
 		int i = 2;
 		int j = 2;
 		
-		assertEquals(i + j, 2);
+		assertEquals(i + j, 4);
 	}
 	
 	@Test
