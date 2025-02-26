@@ -15,7 +15,7 @@ jobs:
         env:
           POSTGRES_USER: postgres
           POSTGRES_PASSWORD: postgre
-          POSTGRES_DB: estudos  # Nome do banco de dados
+          POSTGRES_DB: usuarios  # Nome do banco de dados
         # Configuração de health check
         options: >-
           --health-cmd pg_isready
