@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-public class EstudosTeste {
+public class EstudosTest {
 	
 	@Test
 	@DisplayName("Meu teste 1")
