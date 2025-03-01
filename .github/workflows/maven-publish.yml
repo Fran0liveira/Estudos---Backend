@@ -47,4 +47,4 @@ jobs:
           ${{ runner.os }}-maven-
           
     - name: Run Tests
-      run: mvn --batch-mode -Dmaven.test.failure.ignore=true test
+      run: mvn --batch-mode test
