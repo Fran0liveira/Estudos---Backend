@@ -36,7 +36,7 @@ jobs:
         distribution: 'temurin'
 
     - name: Build project with maven
-      run: mvn -B package --file pom.xml
+      run: mvn --batch-mode -DskipTests package
 
     - name: Dependencies Cache
       uses: actions/cache@v3.4.2
