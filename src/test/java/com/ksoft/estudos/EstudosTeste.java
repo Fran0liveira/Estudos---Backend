@@ -24,7 +24,7 @@ public class EstudosTeste {
 		int i = 4;
 		int j = 4;
 		
-		assertEquals(i + j, 8);
+		assertEquals(i + j, 80);
 	}
 
 }
